@@ -7,6 +7,8 @@ Win64
 *.exe
 *.local
 *.identcache
+# https://docwiki.embarcadero.com/RADStudio/Sydney/en/API_(*.rsm)
+*.rsm
 
 # CGE tools output
 castle-engine-output
