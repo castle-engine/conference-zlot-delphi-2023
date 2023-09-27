@@ -1,0 +1,12 @@
+# Delphi output
+__history
+_recovery
+Win32
+Win64
+*.res
+*.exe
+*.local
+*.identcache
+
+# CGE tools output
+castle-engine-output
