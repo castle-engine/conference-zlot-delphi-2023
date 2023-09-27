@@ -35,6 +35,7 @@ var
   Scene: TCastleScene;
 begin
   Scene := TCastleScene.Create(Self);
+  Scene.Cache := true; // makes subsequent loading of the same file fast
   Scene.URL := 'castle-data:/Bunny.gltf';
   Scene.Translation := Vector3(
     Random * 10,
@@ -49,6 +50,7 @@ var
   Scene: TCastleScene;
 begin
   Scene := TCastleScene.Create(Self);
+  Scene.Cache := true; // makes subsequent loading of the same file fast
   Scene.URL := 'castle-data:/Dino.gltf';
   Scene.Translation := Vector3(
     Random * 10,
