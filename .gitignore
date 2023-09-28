@@ -12,3 +12,8 @@ Win64
 
 # CGE tools output
 castle-engine-output
+
+# backups
+*~
+*.blend?
+*.blend??
